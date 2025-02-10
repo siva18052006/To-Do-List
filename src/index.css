@@ -1,0 +1,73 @@
+/* src/style.css */
+.TodoWrapper {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.TodoList {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.TodoItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.TaskContent {
+  display: flex;
+  align-items: center;
+}
+
+.EditButton, .RemoveButton {
+  margin-left: 10px;
+  background-color: #f0f0f0;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.EditButton:hover, .RemoveButton:hover {
+  background-color: #ddd;
+}
+
+.EditTodoForm input {
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.SaveButton {
+  background-color: #4CAF50;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.SaveButton:hover {
+  background-color: #45a049;
+}
+
+.TodoForm {
+  display: flex;
+  gap: 10px;
+}
+
+.Todo_input {
+  padding: 5px;
+  font-size: 16px;
+}
+
+.Todo_button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.Todo_button:hover {
+  background-color: #45a049;
+}
